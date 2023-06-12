@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{%block body%}
+{# hello{{age<20?"Oui":"non"}} {{"now"|date("y,m,d")}} #} 
+<form>
+    <input type="number" name="nombre-a">
+    <input type="text" name="signe" id="">
+    <input type="number" name="nombre-b" id="">
+    <input type="submit">
+</form>
+<a href="{{path('app_contact')}}">Contact us</a>
+{%endblock%}
